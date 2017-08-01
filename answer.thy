@@ -1,5 +1,5 @@
 theory answer
-  imports "~~/src/HOL/Hoare/Hoare"
+  imports   "~~/src/HOL/Hoare/Separation"
 begin
   
   
@@ -25,7 +25,7 @@ code:
   
 lemma "VARS max::nat
 { True }
-(True\<rightarrow>(max:=0));
+max:=0;
 IF max < 82 THEN max := 82 ELSE SKIP FI;
 IF max < 43 THEN max := 43 ELSE SKIP FI
 {max = 82}"
@@ -68,7 +68,7 @@ max:=0;
 a[0]:=45;
 a[1]:=36;
 a[2]:=12;
-i:=0;
+i :=0 ;
 WHILE i < 3
 INV{if i = 0 then max = 0 else (\<forall>j<i. a!j \<le> max)}
 DO 

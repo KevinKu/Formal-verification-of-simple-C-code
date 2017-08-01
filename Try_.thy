@@ -1,5 +1,5 @@
 theory Try_
-  imports "~~/src/HOL/Hoare/Hoare"
+  imports  "~~/src/HOL/Hoare/Separation"
 begin
 
 (*
@@ -24,7 +24,7 @@ code:
   
 lemma "VARS max::nat
 {True}
-(True\<rightarrow>max:=0);
+max:=0;
 IF max < 82 THEN max:=82  ELSE SKIP FI;
 IF max < 43 THEN max:=43  ELSE SKIP FI
 {}"
