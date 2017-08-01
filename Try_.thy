@@ -67,7 +67,7 @@ a[1]:=36;
 a[2]:=12;
 i:=0;
 WHILE i < 3
-INV{if i = 0 then max = 0 else (\<forall>j<i. a!j \<le> max)}
+INV{}
 DO 
 IF max < (a!i) THEN max:=(a!i) ELSE SKIP FI;
 i:=i+1
