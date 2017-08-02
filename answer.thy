@@ -22,6 +22,14 @@ code:
                 }
 
 *)
+ 
+(*
+
+Goal:
+
+prove that the variable max equals 82.
+
+*)    
   
 lemma "VARS max::nat
 { True }
@@ -61,6 +69,13 @@ code:
 
 *)
 
+(*
+
+Goal:
+
+prove that the variable max is the biggest element of array a.
+
+*)         
   
 lemma "VARS (max::nat) (a::nat list) (i::nat)
 {length a = 3}
@@ -89,5 +104,5 @@ apply vcg
    apply auto
   done
   
-      
+  
 end
