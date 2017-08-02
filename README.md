@@ -3,6 +3,11 @@
 
 這是存放演講Demo資料的地方
 
+使用2016-1版的Isabelle/HOL
+
+建議使用GUI的界面
+
+[下載連結](https://www.cl.cam.ac.uk/research/hvg/Isabelle/installation.html)
 
 各個file的意義如下
 
