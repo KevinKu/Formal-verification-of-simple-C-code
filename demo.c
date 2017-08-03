@@ -31,7 +31,7 @@ void f()
 			max = 43;
 		}
 
-	printf("max=%d\n",max);
+	printf("max=%u\n",max);
 }
 
 
@@ -55,5 +55,5 @@ void g()
 			i = i+1;
 		}
 
-	printf("max=%d\n",max);
+	printf("max=%u\n",max);
 }
