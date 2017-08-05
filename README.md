@@ -54,5 +54,9 @@
 
 [形式化驗證 (Formal Verification)](https://hackmd.io/s/H1xxp3pF0)
 
+[Taiwan Linux Kernel Hackers](https://www.facebook.com/groups/twlinuxkernelhackers/?ref=bookmarks)
+
 Background reading on Hoare Logic.pdf
+
+
 
