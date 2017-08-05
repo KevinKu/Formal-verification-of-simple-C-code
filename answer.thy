@@ -73,7 +73,8 @@ code:
 
 Goal:
 
-prove that the variable max is the biggest element of array a.
+prove that the variable max is bigger element of array a or equals
+ some element of array a.
 
 *)         
   
