@@ -12,9 +12,9 @@ SKIP
   
   
 lemma "VARS x
-{P}
+{x=5}
 x:=7
-{Q∧x=7}"
+{x=5}"
   apply vcg
   apply auto
     sorry
@@ -25,9 +25,9 @@ x:=7
 lemma "VARS x
 {P}
 SKIP;SKIP
-{Q}"
+{P}"
   apply vcg
-    sorry
+    done
     
     
     
