@@ -58,5 +58,5 @@
 
 Background reading on Hoare Logic.pdf
 
-
+[演講補充資料](https://hackmd.io/s/r1Cu7pcwW)
 
